@@ -1,0 +1,19 @@
+.header {
+    background-color: #828888;
+    color: #fff;
+    padding: 20px;
+}
+
+header p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}

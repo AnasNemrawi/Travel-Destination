@@ -1,22 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
-import Footer from "./component/Footer";
-import Header from "./component/Header";
-import Tours from './component/Tours';
+import Home from './component/home/Home';
+import Footer from "./component/footer/Footer";
+import Header from "./component/header/Header";
+import Tours from './component/tours/Tours';
 import data from './data/db.json';
 
+
 export default function myApp() {
-  console.log(data)
   return (
-    <section>
-      <Header />
+    <div classname="app">
+      <Home />
+    </div>
 
-      <Tours data={data} />
-
-      <Footer />
-
-    </section>
   );
 }
 
