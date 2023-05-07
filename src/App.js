@@ -1,19 +1,19 @@
-import './App.css';
-
-import Home from './component/home/Home';
-import Footer from "./component/footer/Footer";
-import Header from "./component/header/Header";
-import Tours from './component/tours/Tours';
+import React from 'react';
+import Home from './components/home/home';
 import data from './data/db.json';
+import TourDetails from './components/tourD/TourD';
+import { Routes, Route } from "react-router-dom";
+import './index.css';
 
-
-export default function myApp() {
+function App() {
   return (
-    <div classname="app">
-      <Home />
+    <div>
+      <Routes>
+        <Route path='/' element={<Home DATA={data} />} />
+        <Route path='/city/:id' element={<TourDetails DATA={data} />} />
+      </Routes>
     </div>
-
   );
 }
 
-
+export default App;

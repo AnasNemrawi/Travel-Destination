@@ -1,0 +1,19 @@
+.title {
+    background-color: rgb(12, 28, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.title a {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 15%;
+    background-color: rgb(12, 28, 46);
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
