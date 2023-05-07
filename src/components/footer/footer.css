@@ -1,0 +1,39 @@
+.foot {
+    background-color: rgb(12, 28, 46);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.foot ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.foot ul li {
+    margin-right: 20px;
+}
+
+.foot ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.foot ul li a:hover {
+    text-decoration: underline;
+}
+
+.foot p {
+    margin: 0;
+    font-size: 14px;
+}
